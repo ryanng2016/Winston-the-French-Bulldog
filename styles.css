@@ -1,0 +1,63 @@
+/*font*/
+@import url(https://fonts.googleapis.com/css2?family=Lato&display=swap);
+
+/*style*/
+h1 {
+    font-weight: 200;
+    font-size: 35px;
+    text-transform: uppercase;
+    border-top: 5px solid;
+}
+
+body {
+    background-color: #f69680;
+    color: #2e1263;
+    font-family: "Lato";
+    font-weight: 200;
+}
+
+img {
+    height: 350px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    margin: 20px auto 0;
+    padding: 5px 10px;
+    background-color: #f69680;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #2e1263;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+    letter-spacing: 4px;
+
+}
+
+button:hover {
+    transition: 0.5s;
+    background-color: #2e1263;
+    color: #f69680;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
